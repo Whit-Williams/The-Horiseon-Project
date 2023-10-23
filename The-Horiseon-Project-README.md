@@ -18,7 +18,7 @@ Following the objective, I have introduced the following:
 
 ## Page Title
 
-What: Added the title "Horiseon - Homepage" to the title element.
+What: Added the title "Horiseon - Homepage".
 
 Why: This confirms the web page being visited, also allowing users to track where they are on the website.
 
@@ -31,7 +31,7 @@ What: Fixed a broken link from the navigation bar to the "Search Engine Optimiza
 
 Why: So that all aspects of the navigation bar are functional. 
 
-How: By adding the associated id attribute of the section to the div tag, linking it with the existing link element that had been identified with the same id.
+How: By adding the associated id attribute of the section to the opening div tag, to establish the link with the existing link element with the same id.
 
 
 ## Consolidated CSS Selectors
@@ -40,7 +40,7 @@ What: Consolidated some of the CSS selectors on the style sheet.
 
 Why: For two reasons - less latency and faster response times. But also to tidy up the code for ease of navigation and increased readability (in line with the Scout Rule). 
 
-How: By combining any seperate selectors with the same style properties.
+How: By combining any seperate selectors that had the same style properties.
 
 
 ## Alt Attributes
@@ -73,7 +73,7 @@ How I did it: By adding an a:hover selector and underline property.
 
 How I did it: By adding header, nav, main and footer elements to the relevant sections.
 
-3. Changed the colour contrast between the text and background within the "benefits" section, to increase readability. 
+3. Changed the colour contrast between the text and background properties of the "benefits" element, to increase readability. 
 
 How I did it: By making the background a slightly darker shade of blue.
 

@@ -64,13 +64,13 @@ How: By adding comments above each selector, describing their function.
 
 ## Bonus features
 
-What: Added an underline property to the navigation bar that activates once the link is hovered over.
+1. Added an underline property to the navigation bar that activates once the link is hovered over. This is to increase ease of navigation.
 
-why: To emphasise the links on the page for ease of navigation.
+How I did it: By adding an a:hover selector and underline property.
 
-How: By adding an a:hover selector and underline property.
+2. Added landmarks to the HTML code to provide a clear structure, following the guidelines of semantic HMTL. This in turn will enhance user experience and readability.
 
-
+How I did it: By adding header, nav, main and footer elements to the relevant sections.
 -----------------------------------
 
 Thank you for reading!

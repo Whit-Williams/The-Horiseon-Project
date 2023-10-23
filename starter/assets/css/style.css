@@ -1,12 +1,19 @@
+
+/* Tells the browser to account for any border and padding when specifying an element's width and height. It applies to all elements. */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background colour for the body element of the webpage. */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* This applies padding, font type, background colour and text colour properties to the header element. */
 
 .header {
     padding: 20px;
@@ -15,14 +22,20 @@ body {
     color: #ffffff;
 }
 
+/* This sets the display of the h1 header to inline-block. It also changes the font size. */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Adds a stylistic element to the h1 header, changing the colour of the "seo" letters within the h1 text. */
+
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* This selector is responsible for the position, font, font size, padding and margin of the navigation bar. */
 
 .header div {
     padding-top: 15px;
@@ -32,27 +45,39 @@ body {
     font-size: 20px;
 }
 
+/* This removes the markers from the navigation bar list */
+
 .header div ul {
     list-style-type: none;
 }
+
+/* This sets the navigation bar display to inline block, allowing for the additional margin-left property. */
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This changes the colour of the links in the navigation bar and removes default link text decoration. */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This selector is an element I added, bringing attention to the links on the page when they are hovered over. */
+
 a:hover {
     text-decoration: underline;
 }
 
+/* This sets the paragraph text font size. */
+
 p {
     font-size: 16px;
 }
+
+/* This adds an image directly below the header div and adjusts the properties of the image. */
 
 .hero {
     height: 800px;
@@ -63,21 +88,29 @@ p {
     background-position: center;
 }
 
+/* This floats images to left within a box element and adds a margin thickness of 25px to the right. */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* Floats linked images to right within a box element and adds a margin. */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Sets content width, display and margin thickness of the content class attribute. */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* This sets the properties of the benefits div, including its position on the far right of the page, font type and background colour. */
 
 .benefits {
     margin-right: 20px;
@@ -90,12 +123,16 @@ p {
     background-color: #2589bd;
 }
 
+/* This sets the bottom margin thickness and text colour of the elements whithin the benefits div. */
+
 .benefit-lead, 
 .benefit-brand, 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+/* Sets the header size, nargin thickness and text alignment of the headers within the benefits div. */
 
 .benefit-lead h3, 
 .benefit-brand h3, 
@@ -104,6 +141,8 @@ p {
     text-align: center;
 }
 
+/* Adjusts the display of the images within the benefits div, as well as magin and max-width. */
+
 .benefit-lead img,
 .benefit-brand img, 
 .benefit-cost img {
@@ -111,6 +150,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Sets various properties for the text within the content div including text colour and box model properties. */
 
 .search-engine-optimization, 
 .online-reputation-management, 
@@ -123,11 +164,15 @@ p {
     color: #ffffff;
 }
 
+/* Applies size properties to the images within the content div. */
+
 .search-engine-optimization img, 
 .online-reputation-management img, 
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/* Adds margin below the headers within the content div, as well as modifying font size. */
 
 .search-engine-optimization h2,
 .online-reputation-management h2,
@@ -136,12 +181,16 @@ p {
     font-size: 36px;
 }
 
+/* Sets the properties of the page footer. */
+
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* Sets the h2 header in the footer to 20px. */
 
 .footer h2 {
     font-size: 20px;

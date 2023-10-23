@@ -11,7 +11,7 @@ Following the objective, I have introduced the following:
 - [Alt Attributes](#alt-attributes)
 - [CSS Comments](#css-comments)
 - [Bonus Features](#bonus-features)
-- [Improvements](#improvements)
+
 
 [To view the final product, please click here](https://whit-williams.github.io/The-Horiseon-Project/starter/index.html).
 
@@ -73,9 +73,9 @@ How I did it: By adding an a:hover selector and underline property.
 
 How I did it: By adding header, nav, main and footer elements to the relevant sections.
 
-## Improvements
+3. Changed the colour contrast between the text and background within the "benefits" section, to increase readability. 
 
-An improvement that could be implemented in the next version of this page is to increase the contrast between the text and background of the "benefits" section.
+How I did it: By making the background a slightly darker shade of blue.
 
 -----------------------------------
 

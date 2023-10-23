@@ -1,7 +1,7 @@
 # The-Horiseon-Project
 Welcome to the Horiseon Project.
 
-The main objective of this challenge was to introduce retractor code to the existing codebase, with the aim of improving the accessibility of the Horiseon web page.
+The main objective of this challenge was to introduce refractor code to the existing codebase, with the aim of improving the accessibility of the Horiseon web page.
 
 Following the objective, I have introduced the following:
 

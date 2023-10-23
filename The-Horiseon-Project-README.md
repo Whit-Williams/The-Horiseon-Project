@@ -12,7 +12,7 @@ Following the objective, I have introduced the following:
 - [CSS Comments](#css-comments)
 - [Bonus Features](#bonus-features)
 
-To view the final product, please click here:
+[To view the final product, please click here](https://whit-williams.github.io/The-Horiseon-Project/starter/index.html).
 
 
 ## Page Title
@@ -71,6 +71,7 @@ why: To emphasise the links on the page for ease of navigation.
 How: By adding an a:hover selector and underline property.
 
 
+-----------------------------------
 
 Thank you for reading!
 

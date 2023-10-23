@@ -11,6 +11,7 @@ Following the objective, I have introduced the following:
 - [Alt Attributes](#alt-attributes)
 - [CSS Comments](#css-comments)
 - [Bonus Features](#bonus-features)
+- [Improvements](#improvements)
 
 [To view the final product, please click here](https://whit-williams.github.io/The-Horiseon-Project/starter/index.html).
 
@@ -71,6 +72,11 @@ How I did it: By adding an a:hover selector and underline property.
 2. Added landmarks to the HTML code to provide a clear structure, following the guidelines of semantic HMTL. This in turn will enhance user experience and readability.
 
 How I did it: By adding header, nav, main and footer elements to the relevant sections.
+
+## Improvements
+
+An improvement that could be implemented in the next version of this page is to increase the contrast between the text and background of the "benefits" section.
+
 -----------------------------------
 
 Thank you for reading!

@@ -50,7 +50,7 @@ Why: To offer a text alternative for those who cannot see the images.
 
 How: By adding the "alt" attribute in the opening tag of each image/icon. 
 
-*No text descriptions were added to the alt attributes in this project as the images/icons are decorative. This is in line with the w3 website guidelines I found [here](https://www.w3.org/WAI/test-evaluate/preliminary/#:~:text=If%20the%20image%20is,information%20from%20the%20page%3F).*
+*No text descriptions were added to the alt attributes in this project as the images/icons are decorative. This is in line with the [W3C website guidelines](https://www.w3.org/WAI/test-evaluate/preliminary/#:~:text=If%20the%20image%20is,information%20from%20the%20page%3F) I found.*
 
 
 ## CSS Comments
@@ -64,9 +64,13 @@ How: By adding comments above each selector, describing their function.
 
 ## Bonus features
 
+What: Added an underline property to the navigation bar that activates once the link is hovered over.
+
+why: To emphasise the links on the page for ease of navigation.
+
+How: By adding an a:hover selector and underline property.
 
 
 
-
-
+Thank you for reading!
 

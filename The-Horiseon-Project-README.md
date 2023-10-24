@@ -12,9 +12,7 @@ Following the objective, I have introduced the following:
 - [CSS Comments](#css-comments)
 - [Bonus Features](#bonus-features)
 
-
-[To view the final product, please click here](https://whit-williams.github.io/The-Horiseon-Project/starter/index.html).
-
+[To view the web page, please click here](https://whit-williams.github.io/The-Horiseon-Project/).
 
 ## Page Title
 
@@ -77,7 +75,9 @@ How I did it: By adding header, nav, main, section, aside and footer tags to the
 
 How I did it: By making the background a slightly darker shade of blue.
 
+
 -----------------------------------
+
 
 Thank you for reading!
 

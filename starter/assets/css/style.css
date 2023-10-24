@@ -15,7 +15,7 @@ body {
 
 /* This applies padding, font type, background colour and text colour properties to the header element. */
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -24,20 +24,20 @@ body {
 
 /* This sets the display of the h1 header to inline-block. It also changes the font size. */
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* Adds a stylistic element to the h1 header, changing the colour of the "seo" letters within the h1 text. */
 
-.header h1 .seo {
+header h1 #seo {
     color: #d9dcd6;
 }
 
 /* This selector is responsible for the position, font, font size, padding and margin of the navigation bar. */
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -47,13 +47,13 @@ body {
 
 /* This removes the markers from the navigation bar list */
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* This sets the navigation bar display to inline block, allowing for the additional margin-left property. */
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -65,7 +65,7 @@ a {
     text-decoration: none;
 }
 
-/* This selector is an element I added, bringing attention to the links on the page when they are hovered over. */
+/* This is an element I added, bringing attention to the links on the page when they are hovered over. */
 
 a:hover {
     text-decoration: underline;
@@ -77,9 +77,9 @@ p {
     font-size: 16px;
 }
 
-/* This adds an image directly below the header div and adjusts the properties of the image. */
+/* This adds an image directly below the header element and adjusts the properties of the image. */
 
-.hero {
+#top-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -88,31 +88,31 @@ p {
     background-position: center;
 }
 
-/* This floats images to left within a box element and adds a margin thickness of 25px to the right. */
+/* This floats images to left within a box element and adds a margin thickness of 25px on the right. */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Floats linked images to right within a box element and adds a margin. */
+/* Floats linked images to right within a box element and adds a margin thickness of 25px on the left. */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Sets content width, display and margin thickness of the content class attribute. */
+/* Sets the width, display and margin thickness of the content id element. */
 
-.content {
+#content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* This sets the properties of the benefits div, including its position on the far right of the page, font type and background colour. */
+/* This sets the properties of the benefits id element, including its position on the far right of the page, font type and background colour. */
 
-.benefits {
+#benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -123,7 +123,7 @@ p {
     background-color: #1a6ca3;
 }
 
-/* This sets the bottom margin thickness and text colour of the elements whithin the benefits div. */
+/* This sets the bottom margin thickness and text colour of the class attributes within the benefits element. */
 
 .benefit-lead, 
 .benefit-brand, 
@@ -132,7 +132,7 @@ p {
     color: #ffffff;
 }
 
-/* Sets the header size, nargin thickness and text alignment of the headers within the benefits div. */
+/* Sets the header size, nargin thickness and text alignment of the headers within the benefits element. */
 
 .benefit-lead h3, 
 .benefit-brand h3, 
@@ -141,7 +141,7 @@ p {
     text-align: center;
 }
 
-/* Adjusts the display of the images within the benefits div, as well as magin and max-width. */
+/* Adjusts the display of the images within the benefits element, as well as magin and max width. */
 
 .benefit-lead img,
 .benefit-brand img, 
@@ -151,7 +151,7 @@ p {
     max-width: 150px;
 }
 
-/* Sets various properties for the text within the content div including text colour and box model properties. */
+/* Sets various properties for the text within the content element including text colour and box model properties. */
 
 .search-engine-optimization, 
 .online-reputation-management, 
@@ -164,7 +164,7 @@ p {
     color: #ffffff;
 }
 
-/* Applies size properties to the images within the content div. */
+/* Applies size properties to the images within the content element. */
 
 .search-engine-optimization img, 
 .online-reputation-management img, 
@@ -172,7 +172,7 @@ p {
     max-height: 200px;
 }
 
-/* Adds margin below the headers within the content div, as well as modifying font size. */
+/* Adds a margin below the headers within the content element, as well as modifying font size. */
 
 .search-engine-optimization h2,
 .online-reputation-management h2,
@@ -183,7 +183,7 @@ p {
 
 /* Sets the properties of the page footer. */
 
-.footer {
+#footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -192,6 +192,6 @@ p {
 
 /* Sets the h2 header in the footer to 20px. */
 
-.footer h2 {
+#footer h2 {
     font-size: 20px;
 }

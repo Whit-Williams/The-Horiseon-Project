@@ -71,7 +71,7 @@ How I did it: By adding an a:hover selector and underline property.
 
 2. Added landmarks to the HTML code to provide a clear structure, following the guidelines of semantic HMTL. This in turn will enhance user experience and readability.
 
-How I did it: By adding header, nav, main and footer elements to the relevant sections.
+How I did it: By adding header, nav, main, section, aside and footer tags to the relevant sections.
 
 3. Changed the colour contrast between the text and background properties of the "benefits" element, to increase readability. 
 
